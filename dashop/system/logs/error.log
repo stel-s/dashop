@@ -1,0 +1,11 @@
+2015-12-19 3:03:23 - PHP Notice:  Undefined variable: hotline in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod\vqcache\vq2-catalog_view_theme_so-maxshop_template_common_header.tpl on line 381
+2015-12-19 3:04:07 - PHP Notice:  Undefined variable: text_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-19 3:04:09 - PHP Notice:  Undefined variable: hotline in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod\vqcache\vq2-catalog_view_theme_so-maxshop_template_common_header.tpl on line 381
+2015-12-19 3:05:19 - PHP Notice:  Undefined variable: text_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-19 5:30:37 - PHP Warning:  unlink(D:/xampp/htdocs/ytc_templates/opencart/so_maxshop/system/cache/cache.length_class.1.1450498460): No such file or directory in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\system\library\cache\file.php on line 17
+2015-12-19 9:10:35 - PHP Notice:  Undefined variable: view_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-19 9:11:27 - PHP Notice:  Undefined variable: view_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-19 9:12:00 - PHP Notice:  Undefined variable: view_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-19 9:12:49 - PHP Notice:  Undefined variable: view_all in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\module\manufacturers.tpl on line 4
+2015-12-21 4:36:03 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\product\search.tpl on line 382
+2015-12-21 4:43:10 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\catalog\view\theme\so-maxshop\template\product\search.tpl on line 382

@@ -1,0 +1,13 @@
+
+/* Overlay pattern */
+body.no-bgbody{background-image:none;}
+
+$columns: 45;
+@for $i from 1 through $columns {
+  .pattern-#{$i} {
+    background-image: url(../images/patterns/#{$i}.png);
+  }
+}
+
+
+

@@ -1,0 +1,11 @@
+/*----------------------------------
+*  -----------Target IE 9 and HIGHER -----------------
+*---------------------------*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #sosearchpro.so-search .select_category select {
+    width: 120px; }
+
+  .icon-select:after {
+    display: none; } }
+
+/*# sourceMappingURL=ie9-and-up.css.map */

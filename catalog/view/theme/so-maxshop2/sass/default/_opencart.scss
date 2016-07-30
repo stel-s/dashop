@@ -1,0 +1,132 @@
+/*--------------------Login ---------------------*/
+.page-login{
+    .headtitle-login{font-size: 18px;margin: 0 0 6px;padding: 9px 0;text-transform: uppercase;font-weight: bold;position: relative;}
+    .well {background: #fff;min-height: 274px;border: 1px solid #e7e7e7;margin: 0;line-height: 23px;border-radius: 0;
+        h2{padding-left: 20px;padding-bottom: 10px;padding-top: 0px; margin: 0;font-size: 14px;text-transform: uppercase; position: relative;}
+        p{padding-top: 15px;}
+    }
+    .new-customer{
+        h2:before{content: "\f016"; font-family: FontAwesome; display: block; position: absolute; left: 0; color: #aaa; bottom: 9px;}
+        
+        .bottom-form{background: #f5f5f5;height: 60px;border: 1px solid #e7e7e7; border-top: 0;
+            a{float: right;margin-top: 12px;padding: 7px 12px; margin-right: 10px; background: gray;color: #fff;  text-transform: capitalize; border-radius: 0; border-color: gray;
+                &:hover{background: $background1; border-color: $linkColor;;}
+            }
+        }
+    }
+    .customer-login{
+        h2:before{content: "\f0f6"; font-family: FontAwesome; display: block; position: absolute; left: 0; color: #aaa; bottom: 9px;}
+        .form-group{
+            label{padding-left: 0;}
+            input{border-radius: 0;}
+        }
+        .bottom-form{background: #f5f5f5;height: 60px;border: 1px solid #e7e7e7; border-top: 0;
+            a{padding-left: 16px; line-height: 60px; color: $textBody;
+                &:hover{color: $linkColor;}
+            }
+            input{float: right;margin-top: 12px;padding: 7px 12px; margin-right: 10px; background: gray;color: #fff;  text-transform: capitalize; border-radius: 0; border-color: gray;
+                &:hover{background: $background1; border-color: $linkColor;}
+            }
+        }
+    }
+    
+}
+//Page Affiliate
+.page-affiliate{
+    h1{font-size: 18px;margin: 0 0 6px;padding: 9px 0;text-transform: uppercase;font-weight: bold;position: relative;}
+    .well {background: #fff;min-height: 274px;border: 1px solid #e7e7e7;margin: 0;line-height: 23px;border-radius: 0;
+        h2{padding-left: 20px;padding-bottom: 10px;padding-top: 0px; margin: 0;font-size: 14px;text-transform: uppercase; position: relative;}
+        p{padding-top: 15px;}
+    }
+    .new-affiliate{
+        h2:before{content: "\f016"; font-family: FontAwesome; display: block; position: absolute; left: 0; color: #aaa; bottom: 9px;}
+        
+        .bottom-form{background: #f5f5f5;height: 60px;border: 1px solid #e7e7e7; border-top: 0;
+            a{float: right;margin-top: 12px;padding: 7px 12px; margin-right: 10px; background: gray;color: #fff;  text-transform: capitalize; border-radius: 0; border-color: gray;
+                &:hover{background: $background1; border-color: $linkColor;;}
+            }
+        }
+    }
+    .return-affiliate{
+        h2:before{content: "\f0f6"; font-family: FontAwesome; display: block; position: absolute; left: 0; color: #aaa; bottom: 9px;}
+        .form-group{
+            label{padding-left: 0;}
+            input{border-radius: 0;}
+        }
+        .bottom-form{background: #f5f5f5;height: 60px;border: 1px solid #e7e7e7; border-top: 0;
+            a{padding-left: 16px; line-height: 60px; color: $textBody;
+                &:hover{color: $linkColor;}
+            }
+            input{float: right;margin-top: 12px;padding: 7px 12px; margin-right: 10px; background: gray;color: #fff;  text-transform: capitalize; border-radius: 0; border-color: gray;
+                &:hover{background: $background1; border-color: $linkColor;}
+            }
+        }
+    }
+}
+
+input, .btn{border-radius: 0 !important;}
+/*-------------REGISTER -------------*/
+.account-register{
+    .form-group input{border-radius: 0;}
+    .buttons{
+        input.btn{float: right;margin-top: -7px;padding: 7px 12px; margin-right: 10px; background: $background1;color: #fff;  text-transform: capitalize; border-radius: 0; border-color: $linkColor;
+            &:hover{background: #444; border-color: #444;}
+        }
+        .box-checkbox{position: relative; top: 3px;}    
+    } 
+}
+/*--------------------LIST ITEM ACCOUNT ----*/
+.list-item-account .list-group{border: 1px solid #ddd; padding: 10px; margin-top: 20px;
+    li{border:0; 
+        a{padding: 0; border: 0; border-bottom: 1px dotted #E4E4E4; margin: 0 10px; color: $textBody;display: block; padding-bottom: 10px;
+            &:hover {color: $linkColor;}
+        }
+        &:last-child a{border-bottom: 0; padding-bottom: 0;}
+    }
+}
+
+/*----------------------WISHLIST -------------------*/
+.wishlist-page{margin-bottom: 30px;
+    table{width: 100%;}
+}
+
+/*-------------------------CHECKOUT -------------------------*/
+.checkout-cart{
+    #accordion  input{height: 34px !important; border-radius: 0;}
+    #accordion  select{ border-radius: 0;}
+    .buttons a.btn-default{background: $background1; border-color: $linkColor; color: #fff;
+        &:hover{background: #444; border-color: #444;}
+    }
+}
+
+/*-------------------------PAGE 404 -------------------------*/
+.wrapper_404page{background-color: #eeeeee;border-radius: 3px;display: inline-block; padding: 0 15px;width: 100%;
+    .content-404page{float: right;margin-top: 40px;max-width: 500px;text-align: center;
+        .top-text, .bottom-text{font-size: 133.33%;}
+        .img-404{margin: 30px 0;}
+        .button-404{padding-top: 40px;
+            .btn-404{border-radius: 3px;color: #fff;display: inline-block;height: 38px;line-height: 38px;margin: 0 4px 10px;padding: 0 20px;text-transform: uppercase;transition: all 0.3s ease 0s;
+                &.prev-page-btn{background-color: #ea3a3c;}
+                &.back2home{background-color: #3cb7e7;}
+            }
+        }
+    }
+    .img-right-404{margin-top: 60px;}
+}
+/*-------------------PAGE CHECKOUT ---------------------------*/
+.checkout-cart, .checkout-checkout{
+    .panel-group .panel{border-radius: 0;}
+}
+.table-responsive{
+    .table{
+        thead > *{ background-color: rgba(51,51,51,0.1); font-weight: bold;}
+        tbody td.text-left{
+            a{font-weight: bold; color: $textBody;}
+            &:hover a{color: $linkColor;}
+        }
+    }
+   
+}
+//---------------PAGE SITE MAP -----------------
+
+.product-search .products-list.grid .description {display: none;}

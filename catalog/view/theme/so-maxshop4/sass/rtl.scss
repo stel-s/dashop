@@ -1,0 +1,341 @@
+/*--------------------STYLE RTL-------------*
+     *------------ 1. Header -------------- *
+	*------------ 2. Search Pro ---------- *
+	*------------ 3. Main Menu------- *
+	*------------ 4. Vertical Menu ---------- *
+	*------------ 5. Slideshow ----------- *
+	*------------ 6. Breadcurmb ---------- *
+	*------------ 7. Block Cart ---------- *
+	*------------ 8. Footer -------------- *
+	*------------ 9. Product Listing ----- *
+	*------------ 10. Product Detail ------ *
+	*------------ 11. Other Module ------- *
+*/
+ 
+
+/*-----------------1. HEAER ----------------*/
+
+#header .header-top{
+		.header-top-left{direction: ltr;
+				.welcome-msg .label-msg{float: right; }
+		}
+    .header-top-right{text-align: left;
+        ul.top-link > li{float: right; border-left: 0; border-right: 1px solid #ddd;
+
+            > a{padding: 0 20px 0 10px;
+                &:before{margin-left: 7px; margin-right: 0;}
+            }
+
+        }
+    }
+    .languages-block, .currencies-block{float: left;}
+		.languages-block{border-left: 0; border-right: 1px solid #ddd;}
+		
+}
+#header .header-center .phone-contact{float: left; padding-left: 0; padding-right: 48px; background-position: right top; text-align: right;}
+/*------------2. SEARCH PRO ------------*/
+.header-center .navbar-search{
+    #search input{float: right; padding-right: 15px; border-right: 1px solid #ddd; border-left: 0;}
+}
+#sosearchpro.so-search .autosearch-input{border-left: 0; border-right: 1px solid #ddd;}
+#sosearchpro .icon-select::after{left: 0; right: inherit;}
+#sosearchpro.so-search .select_category select{float: right;}
+
+/*------------ 3.MAIN MENU ------------*/
+
+/*------------ 4.VERTICAL MENU ------------*/
+.left_column .so-vertical-menu {
+		#menuHeading .megamenuToogle-wrapper .container{padding: 0 60px 0 0px !important;
+				&:before{left: inherit; right: 0;}
+		}
+		.vertical ul.megamenu{
+            > li{
+                &.with-sub-menu > a:after{content: "\f104"; float: left;}               
+                &.loadmore{text-align: right;}
+                &.style1 .content:after{left: -13px; right: inherit;}
+            }
+            .sub-menu{right: 100% !important; left: auto;}
+        } 
+}
+/*-------------- 5.SLIDESHOW -----------*/
+.module h3.modtitle span:before{right: inherit; left: -20px; border-right: 0; border-left: 20px solid transparent;}
+/*---------------------- 6.BREADCRUMB -----------------*/
+ul.breadcrumb li{
+   +li:after{content: "\f104"; font-family: fontawesome; color: #444; padding: 0 5px 0 10px;}
+	 +li:before{display: none;}
+}
+
+.owl2-carousel.owl2-loaded{direction: ltr;}
+
+/*------------ ALL THE MOUDLES -------------*/
+//---------------SO Deals
+.so-deal{
+		.item-timer .time-item{float: right;}
+} 
+
+
+//-------------SO category slider --------
+div.container-slider .item-sub-cat{right: inherit; left: 0;
+		ul li a span{float: right;}
+}
+
+//-----------Latest blog ----
+div.so-latest-blog{text-align: right;
+		.owl2-nav{left: 5px; right: inherit;}
+} 
+
+//---Manu slider 
+.so-manu-slider h3.modtitle a.view-all-brand{float: left; margin: 11px 0 0px 11px;
+		&:after{float: left; content: "\f0d9"; margin-left: 0; margin-right: 5px;}
+}
+//--------SO Extraslider-----
+.best-seller .so-extraslider{
+		.owl2-controls{left: 5px; right: inherit;}
+		.extraslider-inner .item .item-wrap.style1 {
+				.media-left{float: right; padding-left: 10px; padding-right: 0;}
+				.media-body .item-info{text-align: right;}
+		} 
+}
+
+/*------------- CUSTOM HTML ---------*/
+	//BANNER
+	.static-home-2 > ul > li{float: right;}
+	 
+//--FQA ----------
+.accordion-section-title{padding-left: 0; padding-right: 47px;
+		&:before{left: inherit; right: 19px; background-position: top right;}
+}
+.accordion-section-content{padding: 0 47px 10px 10px;}
+//CLIENT SAY
+div.clients_say .block_content{text-align: right;
+		.info .image {float: right;margin: 0px 0px 0px 10px;}
+}
+//---- SERVICES -----
+ul.list-services li{float: right;}
+
+//------Newsletter--------------
+.news-letter{
+		.title-block{margin-left: 0; margin-right: 20px; padding: 1px 60px 0 0; background-position:  right center;}
+		.block_content{float: left;
+				.input-box{float: right;}
+		}
+}
+
+//-------------------- 7. Block Cart  --------------
+.shopping_cart{
+		.btn-shopping-cart .text-shopping-cart{float: left; margin: 7px 10px 0 5px;}
+		&:after{left: inherit; right: -34px; transform: rotate(-180deg);}
+}
+
+/*----------------8.FOOTER----------------*/
+
+.news-letter{padding-right: 15px; padding-left: 0;}
+.box-footer{border-left:1px solid #ddd; border-right: 0;
+		&:last-child{border-left: 0; padding-right: 20px;}
+		&.box-account, &.box-information{padding-right: 20px;}
+}
+.contact-address{
+    span{left: inherit; right: 0; margin-right: 0; margin-left: 10px;}
+    li{padding: 0 25px 8px 0;}
+}
+ul.payment-method li{margin-left: 7px; margin-right: 0;}
+.footer-container .footer-navbar .module ul.menu li a:before{content: "\f100"; margin-right: 0; margin-left: 5px; float: right;}
+ul.footer-directory li h2{margin-right: 0; margin-left: 5px;}
+
+
+/*--------------- 9.PRODUCT LISTING -----------------*/
+.short-by-show .form-group:after{left: 1px; right: inherit;}
+.product-filter.filters-panel .list-view{text-align: right;}
+.module.block_category .box-content ul li{
+    span.button-view{left: 0; right: inherit;}
+    ul li a:before{content: "\f104"; margin-left: 0; margin-right: -12px; float: right;}
+    ul li a:hover:before{margin-right: 0;}
+} 
+.module.latest-product .media .media-left{float: right; margin-left: 20px; margin-right: 0;}
+div.block_category .box-content ul li a{padding: 5px 0 5px 30px}
+.block_category .box-content ul li ul li a{padding: 0;}
+#input-sort > option{padding-right: 12px !important;}
+
+div.products-list.grid .product-layout .product-item-container{
+		.left-block .quickview{left: -7px; right: inherit;}
+		.right-block{float: right;
+				.caption{text-align: right;}
+				.button-group button{
+						&.addToCart{left: 7px; right: inherit;}
+						&.wishlist{left: 7px; right: inherit;}
+						&.compare{left: 7px; right: inherit;}
+				} 
+		}
+		&:hover{
+				.button-group button{right: inherit !important; left: 7px !important;}
+				.left-block .quickview{right: inherit !important; left: -7px !important;}
+		}
+} 
+.products-list.list .product-layout .product-item-container .right-block .button-group{float: right;
+		button.addToCart{background-position: 90% center; padding: 0px 30px 0px 12px;}
+}
+
+div.products-list.list .product-layout .product-item-container .button-group{
+		button.addToCart, button.wishlist, button.compare{float: right; margin-left: 5px; margin-right: 0;}
+}
+.fa-chevron-right:before{content: "\f053";}
+
+/*---------------------- 10.PRODUCT DETAIL ------------------*/
+.product-detail{
+		.left-content-product .content-product-left #thumb-slider{float: right; margin-left: 15px; margin-right: 0;
+				.lSAction > .lSNext{right: inherit;}
+		}
+    .producttab .tabsslider.vertical-tabs{
+        ul.nav-tabs{
+            li:before{left: inherit; right: 0;}
+        }
+        .tab-content{border-right: 1px solid #e6e6e6; border-left: 0;}
+    }
+    .left-content-product .content-product-right .product-label{
+        .price{float: right;}
+        
+    }
+    div.left-content-product .content-product-left{padding-left: 15px;
+				.thumb-vertical-outer{padding-right: 0;
+						span.view_scroll_spacer a{left: 55%;}
+				}
+		}
+    .left-content-product .content-product-right .box-info-product{float: right;
+        .quantity .quantity-control{float: right;
+						label{float: right; margin-right: 0; margin-left: 5px;}
+						input.form-control {float: right; margin-left: 17px; margin-right: 0;}
+						span{margin-left: 0; margin-right: 5px;
+								&.product_quantity_up, &.product_quantity_down{right: inherit; left: 14px;}
+						}
+				}
+        .cart{float: right;margin-right: 0;
+						input{padding: 0 30px 0 15px; background-position: 94%  center;}
+				}
+        .add-to-links ul li{
+						a{float: right;}
+						&.wishlist a{margin-left: 0; margin-right: 5px;}
+				} 
+    }
+    div.left-content-product .content-product-right{
+        .box-review .ratings{margin: 0 0 0 20px;}
+        #product .box-date{
+            label{float: right; margin-right: 0; margin-left: 10px;}
+            button{float: left; border-left: 1px solid #ddd; border-right: 0;}
+        }
+        .product-box-desc .inner-box-desc:before{left: inherit; right: -20px;}
+        
+    } 
+    .addthis_native_toolbox{float: right;}
+		.product-view .content-product-left .thumb-video{right: 30px; left: inherit;}
+}
+
+.releate-products .product-layout,
+.owl2-carousel .owl2-stage-outer{direction: ltr;}
+div.related .releate-products.owl2-theme .owl2-nav{
+    div.owl2-next{float: left; left: 5px; right: inherit;}
+    div.owl2-prev{float: left; left: 0; right: inherit;}
+}
+
+.text-danger{float: right;}
+#product-accordion .panel .panel-heading a span.arrow-up{left: 0; right: inherit;}
+#thumb-slider.owl2-carousel .owl2-stage-outer{direction: ltr;}
+
+#tab-review  .contacts-form span span.text-danger{margin-left: 15px; margin-right: 0;}
+.mfp-close{left: 0; right: inherit;}
+
+.banner-policy .policy a span{float: right !important; margin-left: 10px; margin-right: 0 !important;}
+
+//-------Related products -----
+.related.products-list{
+		.releate-products .product-item-container .product-item {
+				.product-image-container{float: right;}
+				.media-body{text-align: right;}
+		}
+		.owl2-controls{left: 5px; right: inherit;}
+} 
+.up-sell{
+		div.products-list .product-layout{overflow: visible;}
+}
+
+/*------------------------END PRODUCT DETAIL ----------------*/
+
+/*-------------------------11. BONUS PAGES ---------------------------------------------*/
+//CONTACT
+    div.contact ul li {padding-left: 0;padding-right: 45px;float: right;
+         &:before {left: auto;right: 0;}
+    }
+    div.contacts .info-contact .icon{float: right; padding-left: 20px; padding-right: 0;}
+   
+
+//SITE MAP
+.page-sitemap{
+    h1{font-weight: normal; margin-bottom: 20px;}
+    .arrow-list li:before{content: "\f104"; float: right; margin-left: 10px; margin-right: 0;}
+} 
+
+//-----------------------------PAGE LOGIN & REGISTER---------------
+.page-login{
+    .well h2{padding-left: 0; padding-right: 20px;
+        &:before{left: inherit; right: 0;}  
+    }
+    .customer-login .bottom-form{
+        input{float: left; margin-right: 0; margin-left: 10px;}
+        a{padding-left: 0; padding-right: 16px;}
+       } 
+}
+.account-register .buttons input.btn{float: left;}
+.page-login .new-customer .bottom-form a{float: left; margin-left: 10px;}
+
+
+//-- PAGE CART SHOPPING
+.shopping_cart .shoppingcart-box{
+		a.btn{padding: 6px 10px;
+				i{margin-left: 5px; margin-right: 0;}
+		} 
+		&:before{right: inherit; left: 47px;}
+}
+.shopping_cart{position: relative;
+    a.top_cart .handle{float: right !important; margin: 5px 48px 5px 10px; }
+    a.top_cart .shopcart .title{text-align: right;}
+    a.top_cart .shopcart .text-shopping-cart{white-space: nowrap;}
+   .btn-group  {text-align: left;}
+}
+.shopping_cart .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th{background: #fff;}
+
+
+/*---------------------------------------PAGE BLOG ----------------------*/
+div.article-info .article-sub-title span.article-author{padding-right: 0; padding-left: 11px;}
+div.article-info .article-sub-title span{border-right: 0; border-left: 1px solid #e5e5e5; float: right;}
+.article-reply .author{float: right;}
+.article-reply .comment-date{float: left;}
+.blog-listitem .blog-item .itemBlogContent{padding-right: 30px; padding-left: 15px;
+    .article-sub-title .article-date i{margin-right: 0; margin-left: 5px;}
+    .blog-meta{float: right;
+        > span.comment_count{float: left;}
+        span.author{padding-right: 0;}
+    }
+}
+div.article-info .related-comment .panel-body .form-group #comments{padding-right: 5px;}
+ 
+/*------------------PAGE ABOUT ---------------------*/
+ div.about-us .about-content{
+         .image{float: right; margin-right: 0; margin-left: 30px;}
+         .whychooseus ul li{padding-left: 0; padding-right: 30px;
+              &:before{left: inherit; right: 0;}	
+         }
+         .title strong{padding: 0px 0 0px 15px;}
+         .customersay .happy-title{right: 20px; left: inherit;}
+    }
+    .about-us .owl-dots{left: inherit; right: 47%;
+         .owl-dot span{float: right;}
+    }
+    .about-us .owl-carousel.owl-loaded{direction: ltr;}
+
+.about-us .content-faq .panel .panel-title a{padding: 15px 25px  15px 0;
+    &:before{right: 0; left: inherit;}
+    &:after{left: inherit; right: 6px;}
+}
+.yt-gallery ul li .item-gallery a h3.item-gallery-title{right: -105%; left: inherit;}
+.yt-gallery ul li .item-gallery:hover h3.item-gallery-title{right: 0; left: inherit;}
+
+.back-to-top{left: 10px; right: inherit;}

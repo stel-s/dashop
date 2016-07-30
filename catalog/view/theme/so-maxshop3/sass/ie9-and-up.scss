@@ -1,0 +1,10 @@
+/*----------------------------------
+*  -----------Target IE 9 and HIGHER -----------------
+*---------------------------*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #sosearchpro.so-search .select_category select{width: 120px;}
+     .icon-select:after{display: none;}
+     .left_column .so-vertical-menu .vertical ul.megamenu > li.with-sub-menu > a:after{position: static; right: 15px; display: block;}
+    
+}

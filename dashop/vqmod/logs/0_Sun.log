@@ -1,0 +1,14 @@
+---------- Date: 2016-04-17 10:18:49 ~ IP : 10.240.0.195 ----------
+REQUEST URI : /dashop/admin/index.php?route=design/layout&token=hbslFs4g4kB2nkDBGoGwGVlUu3JQpRiB
+MOD DETAILS:
+   modFile   : /home/ubuntu/workspace/dashop/vqmod/xml/soconfig_theme.xml
+   id        : Soconfig theme
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Magentech - Magentech.com
+
+File Name    : admin/controller/design/layout.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): layout_form.tpl
+----------------------------------------------------------------------
+
+

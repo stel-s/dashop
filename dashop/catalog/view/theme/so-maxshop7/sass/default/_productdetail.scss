@@ -1,0 +1,300 @@
+
+/* product page */
+.zoomContainer{z-index: 90;}
+.image_option_type .radio input[type=radio].image_radio{display: none;}
+.image_option_type .radio{padding-left:0;display:inline;}
+.product-description .product-options img.icon-color{
+    width:20px;
+    padding:0
+}
+.mfp-iframe-holder .mfp-close{top: -10px; right: -13px;}
+
+
+.product-info .product-view{margin-bottom:20px;}
+.product-view .flexslider-thumb.not_full_slider{
+    padding:0;
+    margin-bottom:30px
+}
+.product_page_price .price{margin:0}
+.color-swatch-wrapper{
+    position:relative;
+    padding-bottom:20px
+}
+.color-swatch-wrapper .swatch-title{
+    display:none
+}
+.swatch_item{
+    display:inline-block;
+    position:relative;
+}
+.color-swatch-wrapper .image-base{
+    width:20px;
+    height:20px;
+    border:1px solid #d1d1d1;
+    cursor:pointer;
+}
+.color-swatch-wrapper label{display:block}
+
+.color-swatch-wrapper .image-base.image_border{
+    border-color: #EE3B27;
+}
+#tab-review input.form-control,
+.shopping-cart .input-group.btn-block .form-control{
+    width:auto
+}
+
+.color-swatch-wrapper .prefix{
+    position:absolute;
+    left:0;
+    top:35px;
+    display:none;
+}
+#tab-review{
+    input[type=radio]{position: relative; top: 2px;}
+    .contacts-form span{
+        span.text-danger{margin-right: 15px; margin-top: 0;}
+    }
+    .form-group textarea{height: 150px;}
+}
+h2#review-title{clear:both;padding-bottom:20px;margin: 0;}
+
+/* end product page */
+
+.product_image_info{margin-top: 20px;}
+/*===========================BANNER POLICY =========================*/
+.slider-products{padding-left: 0;
+    .content-aside{width:100%;padding: 0;}
+    .four-block{padding: 0;}
+    .policy-detail {box-shadow: none;
+        .banner-policy{padding: 0;
+            .policy{float: none;width: 100%;font-size: 12px;border: none;border-bottom: 1px solid white;padding: 25px 10px;}
+        }
+    }
+}
+.banner-policy{background-color: #eee;text-transform: uppercase;
+    .policy{border-bottom: 1px solid #fff;line-height: 19px;padding: 20px 10px;
+        a{color: $textBody;
+            span{margin-right: 10px;}
+            &:hover{color: $linkColor;}
+        } 
+       &.policy1{
+            a span{background: url('../images/icon/policy_1.png') no-repeat;background-position: center 0;width: 48px; height: 36px; font-size: 0; float: left; }
+            a:hover span{background: url("#{$base-url}policy_1.png") no-repeat; background-position: center 0;}
+        }
+        &.policy2{
+            a span{background: url('../images/icon/policy_2.png') no-repeat;background-position: center 0; width: 53px; height: 35px; font-size: 0; float: left; }
+            a:hover span{background: url("#{$base-url}policy_2.png") no-repeat; background-position: center 0;}
+        }
+        &.policy3{
+            a span{background: url('../images/icon/policy_3.png') no-repeat;background-position: center 0; width: 34px; height: 34px; font-size: 0; float: left; }
+            a:hover span{background: url("#{$base-url}policy_3.png") no-repeat; background-position: center 0;}
+        }
+        &.policy4{
+            a span{background: url('../images/icon/policy_4.png') no-repeat;background-position: center 0; width: 34px; height: 34px; font-size: 0; float: left; }
+            a:hover span{background: url("#{$base-url}policy_4.png") no-repeat; background-position: center 0;}
+        } 
+    }
+}
+
+.slider-products .banner-policy .policy{
+    &.policy1 a span,
+    &.policy2 a span,
+    &.policy3 a span,
+    &.policy4 a span{width: 53px;}
+}
+
+/*--------------left product --------------------*/
+.left-content-product{margin-bottom: 30px;
+    .content-product-left{
+        .large-image {border: 1px solid #e6e6e6;cursor: pointer;display: block;padding: 9px 11px;
+            .label-sale{left: 25px;}
+        }
+        .full_slider, .not_full_slider{margin-top: 10px;
+            .thumbnail{border-radius: 0;margin-bottom: 0;
+                //img{width: 146px; height: 146px; }
+                &:hover{border-color: $linkColor;}
+                &.active{border-color: $linkColor;}
+            }
+            
+            .owl2-nav{ 
+                div{width: 27px; height: 27px; border: 1px solid #dfdfdf;border-radius: 0; font-size: 0; background-color: transparent; @include transition (all 0.3s ease-in-out 0s);top: 50%;margin-top:-12px;position: absolute;
+                    &.owl2-prev{background: url(../images/icon/next-prev-detail.png) no-repeat; background-position: -36px 0px;left: -14px;float: left;background-color: #fff;
+                        &:hover{border-color: $linkColor;background-color: $background1; background-position: 0px 0px; opacity: 1;}
+                        &.disabled{display: none;}
+                        &:before{display: none;}
+                    }
+                    &.owl2-next{background: url(../images/icon/next-prev-detail.png) no-repeat; background-position: -71px 0px;  right: -14px;float: right;background-color: #fff;
+                        &:hover{border-color: $linkColor;background-color: $background1; background-position: -107px 0px; opacity: 1;}
+                        &.disabled{display: none;}
+                        &:before{display: none;}
+                    }
+                    i{display: none;}
+                }
+                
+            }
+            .owl-dots{display: none;}
+        }
+    }
+    .content-product-right{
+        .title-product h1{font-size: 18px;margin: 0 0 10px;line-height: 1;font-weight: bold;}
+        .box-review{
+            .ratings{display: inline-block; margin: 0 20px 0 0; z-index: 0; position: relative;}
+            a{color: $textBody; display: inline-block;
+                &:hover{color: $linkColor;}
+            }
+        }
+        .product-box-desc{float: left; width: 100%; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 20px; color: $textBody; position: relative; height: 100%;
+            .inner-box-desc{width: 100%; height: 100%; position: relative;
+                &:before{content: ""; width: 4px; background: $background1; height: 100%; position: absolute; left: -20px; top: 0;}
+            }
+            
+           span{font-weight: bold;}
+            .brand a{color: $textBody;
+                &:hover{color: $linkColor;}
+            }
+            
+        }
+        .product-label{line-height: 24px; margin-top: 20px;float: left; width: 100%;
+            .price{float: left; margin-top: 0;
+             
+            }
+            .stock{float: right;
+                .status-stock{color: #00abf0;
+                    &:before{content: "\f046"; font-family: FontAwesome; display: inline-block; color: #00abf0;margin-right: 5px; margin-left: 10px;}
+                } 
+            }
+            .short-description{}
+        }
+        #product{float: left; width: 100%;margin-top: 30px;
+            h3{margin-top: 0;}
+            .image_option_type label.control-label{margin-right: 10px; margin-top: 3px;}
+            .product-options{
+                .img-thumbnail{width: 22px; height: 22px; border-radius: 0; padding: 1px;}
+            }
+            .box-checkbox{
+                label{width: 100%;}
+            }
+            .box-date{padding-left: 0;
+                label{margin-right: 10px; width: 80px;}
+                input{width: 200px;}
+                input, button{border-radius: 0; position: relative; z-index: 0; margin-left: 0;}
+                .input-group-btn{float: left;}
+                button:hover{background-color: $background1; color: #fff;}
+            }
+        }
+        .box-info-product{float: left; width: 100%;
+            .quantity .quantity-control{float: left;margin: 0;background: #eee;padding: 4px 10px 4px;position: relative;
+                label{float: left;font-weight: normal;margin-top: 8px;padding-right: 5px;}
+                input.form-control{float: left;height: 33px;line-height: 31px;margin: 0;margin-right: 17px;padding: 0 10px; width: 35px;border: 1px solid #bdc2c9; border-radius: 0; z-index: 0;}
+                span{border: 0 none;color: white;float: left;font-size: 10px;font-weight: normal;margin-left: 5px; border-radius: 0; cursor: pointer;line-height: 16px;
+                    &.product_quantity_up{background: none repeat scroll 0 0 #444444;padding: 0 4px;position: absolute;right: 14px;top: 4px;height: 16.5px;width: 14px;}
+                    &.product_quantity_down{background: none repeat scroll 0 0 #444444;font-size: 13px;padding: 0 4px;position: absolute;right: 14px;top: 21px;width: 14px;height: 15.5px;line-height: 15px;}
+                    &:hover{background: $background1 !important;}
+                }
+            }
+            .cart{float: left;margin-right: 10px;
+                a{font-size: 12px; font-weight: bold; text-transform: uppercase;
+                    i{margin-right: 5px;}
+                }
+                input{background-color: $background1; border-radius: 0; color: #fff; text-transform: uppercase; font-size: 13px; font-weight: bold; 
+                    &:hover{background-color: #444;}
+                }
+            }
+            .add-to-links {
+                li.wishlist a{margin-right: 10px;}
+                ul li a{display: inline-block;padding: 10px 15px;font-size: 14px;margin: 0px 3px 0px; color: $textBody;
+                border: 1px solid #e6e6e6;cursor: pointer;vertical-align: middle;transition: 0.6s all ease 0s; position: relative; float: left;
+                    &.text{display: none;}
+                    &:hover{border-color: $linkColor; color: $linkColor;}
+                }
+            }
+        }
+    }
+}
+//Thumbnail Vertical
+.thumb-vertical-outer{
+    span.view_scroll_spacer a{position: absolute;left: 50%;z-index: 2; margin-left: -10px; 
+        .fa{font-family: FontAwesome; font-size: 20px;line-height: 17px;margin: 0;}
+        &.prev{
+            .fa:before{content: "\f077";}
+        } 
+        &.next{bottom: 0px;
+            .fa:before{content: "\f078";}
+        } 
+    }
+    ul li{cursor: pointer;margin-bottom: 10px;
+        a{ @include transform(scale(1) translate3d(0px, 0px, 0px));}
+        .thumbnail{border-radius: 0;padding: 0;margin: 0;
+            img{padding: 0px;-webkit-transition: all 0.3s ease;transition: all 0.3s ease; position: relative;padding: 4px;}
+            &:hover{border-color: $linkColor;}
+            &.active{border-color: $linkColor;}
+        }
+    }
+}
+
+/*----------------------PRODUCT TABS ---------------*/
+.producttab .tabsslider{margin-bottom: 35px;padding: 0;
+    .nav-tabs{
+        li{margin-bottom: 0;
+            a{font-size: 16px;font-weight: 600;text-transform: uppercase;border-radius: 0px; margin: 0px;border: 1px solid #ddd;border-bottom: 0; margin-right: -1px;padding: 10px 30px; position: relative;background: #fff; color: $textBody;}
+            &.active a, &:hover a{border-top-color: $linkColor;
+                &:before{content: "";width: 100%;height: 3px; background: $background1; left: 0;position: absolute;top: 0; @include transition (all 0.3s ease-in-out 0s);z-index: 999;}
+            }
+            &.active a:after{content: "";width: 100%;height: 1px; background: #fff; left: 0;position: absolute;bottom: -1px; z-index: 999;}
+        }
+    }
+    .tab-content{padding: 20px;display: block;margin: 0;border: solid 1px #e3e1e1; margin-top: -1px;}
+}
+.producttab .tabsslider.vertical-tabs {border: 1px solid #e6e6e6; padding: 0;border-bottom: 1px solid #ddd;
+    ul.nav-tabs{border-bottom: medium none; margin: 0; min-height: 180px;padding: 0;
+        li{border-bottom: 1px solid #ddd;clear: both; position: relative;width: 100%;display: block; 
+            a{border: 0; border-radius: 0; text-transform: uppercase; font-weight: bold; font-size: 16px; margin: 0;@include transition (all 0.3s ease-in-out 0s);color: $textBody;
+                &:hover{background: transparent;}
+            }
+			
+            &:before{content: "";width: 5px;height: 100%; left: -1px;position: absolute;top: 0; @include transition (all 0.3s ease-in-out 0s);z-index: 999;}
+            &:hover{border-left-color: $linkColor;
+                a{color: $linkColor;
+                    &:before{display: none;}
+                }
+                &:before{background-color: $background1;}
+            }
+            &.active{border-left-color: $linkColor;
+                &:before{background-color: $background1;}
+                a{background: transparent;color: $linkColor;
+                    &:before,&:after{display: none;}
+                }
+            }
+            &:first-child{border-top: 0;}
+           
+        }
+    }
+    .tab-content{border: 0; border-left: 1px solid #e6e6e6; min-height: 180px;}
+}
+.form-group{margin-bottom: 20px;}
+#product-accordion{float: left; width: 100%;margin-top: 30px; border: 1px solid #ddd; border-top: 4px solid $linkColor;
+    .panel{padding: 10px 20px 0 20px; border-bottom: 0; box-shadow: none;
+        .panel-heading{border-bottom: 1px dotted #ddd; padding: 0 0 10px 0;
+            a{text-transform: uppercase; font-weight: bold; font-size: 18px; margin: 0;@include transition (all 0.3s ease-in-out 0s);color: $textBody;width: 100%; display: inline-block;position: relative;
+                &.title-head.collapsed{color: $textBody;
+                     span.arrow-up:before{content: "\f0d8";}
+                }
+                &.title-head{color: $linkColor;
+                    span.arrow-up:before{content: "\f0d7";}
+                }
+                span.arrow-up{display: block;position: absolute;right: 0;top: -2px; cursor: pointer;z-index: 10; font-size: 0; text-align: center;
+                    &:before{content: "\f0d8";font-family: "FontAwesome";display: block; vertical-align: middle;width: 30px; height: 30px;line-height: 30px;font-size: 14px;}
+                }
+                
+            }
+            &:hover{border-bottom-color: $linkColor;;
+                a{color: $linkColor;}
+            }
+        }
+        &:first-child .panel-heading{padding-top: 10px;}
+        &:last-child .panel-heading{border-bottom: 0;}
+
+    }
+    .panel-heading+.panel-collapse>.list-group, .panel-heading+.panel-collapse>.panel-body{border-top: 1px dotted $linkColor; margin-top: -1px; padding: 0;}
+}
+

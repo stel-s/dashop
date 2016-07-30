@@ -1,0 +1,39 @@
+/* ************************************************************************************************
+STRUCTURE
+************************************************************************************************ */
+//Non-responsive Bootstrap
+@media  (max-width: 1024px) {.no-res{width: 1190px; }}
+.wrapper-boxed,.wrapper-iframed,.wrapper-rounded  {max-width: 1200px;margin: 0 auto;background: #fff;box-shadow: 0 0 10px rgba(0,0,0,.2);}
+.wrapper-iframed{margin: 20px auto;}
+.wrapper-rounded{margin: 20px auto; border-radius:10px;overflow:hidden;}
+
+
+/************************************************************************************************* */
+/* left blocks */
+
+.product_page .breadcrumb{margin-bottom:13px}
+.block_filter input[type=checkbox]{margin: 0}
+
+
+/* ************************************************************************************************
+	PAGINATION
+************************************************************************************************ */
+.pagination > li {display: inline-block; margin: 0 2px;
+    span, a{padding: 6px 8px;}
+    a:hover, span:hover{color: #fff; background: $background1; border-color: $linkColor;}
+    &.active, &:hover{background: transparent; border-color: $linkColor;
+	   span{color: $linkColor; background: transparent; border-color: $linkColor;
+		  &:hover{background: $background1; border-color: $linkColor;}
+	   }
+    }
+    &:last-child{margin-right: 0;}
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {border-radius: 0;}
+.pagination > li > a, .pagination > li > span {color: #666;}
+.pagination > li:last-child > a, .pagination > li:last-child > span {border-radius: 0;}
+
+
+/*---------------------------BLOCK HEADER BOTTOM -----------------------*/
+.sidebar-menu{ position: relative; z-index: 99;}
+
+

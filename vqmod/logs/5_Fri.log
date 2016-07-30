@@ -1,0 +1,31 @@
+---------- Date: 2016-04-15 17:36:49 ~ IP : 10.240.0.15 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/ubuntu/workspace/vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+VQModObject::parseMods - Could not resolve path for [catalog/language/hungarian/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/language/hungarian/setting/setting.php] (SKIPPED)
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-04-15 17:37:52 ~ IP : 10.240.0.195 ----------
+REQUEST URI : /index.php?route=product/category&path=33
+MOD DETAILS:
+   modFile   : /home/ubuntu/workspace/vqmod/xml/soconfig_theme.xml
+   id        : Soconfig theme
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Magentech - Magentech.com
+
+File Name    : catalog/controller/product/category.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->load->language('product/manufacturer');
+----------------------------------------------------------------------
+
+

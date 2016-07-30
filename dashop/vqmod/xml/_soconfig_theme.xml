@@ -1,0 +1,159 @@
+<modification>
+	<id><![CDATA[cosyone theme]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[2.X]]></vqmver>
+	<author><![CDATA[Karl Pers - Openthemer.com]]></author>
+	<file name="catalog/controller/common/home.php">
+		<operation>
+			<search position="before"><![CDATA[
+			$data['column_left'] = $this->load->controller('common/column_left');
+			]]></search>
+			<add><![CDATA[
+			$data['content_block1'] = $this->load->controller('common/content_block1');
+			$data['content_block2'] = $this->load->controller('common/content_block2');
+			$data['content_block3'] = $this->load->controller('common/content_block3');
+			$data['content_block4'] = $this->load->controller('common/content_block4');
+			$data['content_search'] = $this->load->controller('common/content_search');
+			$data['content_menu'] = $this->load->controller('common/content_menu');
+		]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('common/header');]]></search>
+			<add><![CDATA[		// cosyone custom code start
+			$this->load->language('common/soconfig');
+			$data['text_contact'] = $this->language->get('text_contact');
+			$data['text_more'] 	  = $this->language->get('text_more');
+			$data['text_menu'] 	  = $this->language->get('text_menu');
+			
+			$data['content_search'] = $this->load->controller('common/content_search');
+			$data['content_menu'] = $this->load->controller('common/content_menu');
+			$data['content_block1'] = $this->load->controller('common/content_block1');
+
+			// Cosyone ends
+		]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[$data['title'] = $this->document->getTitle();]]></search>
+			<add><![CDATA[
+				$this->document->addStyle('catalog/view/javascript/so_searchpro/css/so_searchpro.css'); 
+				$this->document->addStyle('catalog/view/javascript/so_megamenu/so_megamenu.css');
+				$this->document->addStyle('catalog/view/javascript/so_megamenu/wide-grid.css');
+				$this->document->addScript('catalog/view/javascript/so_megamenu/so_megamenu.js');
+			]]></add>
+		</operation>	
+	</file>
+	<file name="catalog/controller/common/cart.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('common/cart');]]></search>
+			<add><![CDATA[		// cosyone custom code start
+			$this->load->language('common/soconfig');
+			
+			$data['text_shop'] 	  = $this->language->get('text_shop');
+			$data['text_shop_cart'] 	  = $this->language->get('text_shop_cart');
+			// Cosyone ends
+		]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/product/category.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+			$data['breadcrumbs'] = array();
+			]]></search>
+			<add><![CDATA[
+			$this->load->language('common/soconfig');
+			
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[$data['products'][] = array(]]></search>
+			<add><![CDATA[
+			// Cosyone custom code starts	
+			 
+				$images = $this->model_catalog_product->getProductImages($result['product_id']);
+            	if(isset($images[0]['image']) && !empty($images[0]['image'])){
+                 $images =$images[0]['image'];
+               } else {
+				$images = false;
+				}
+				// cosyone end
+			   ]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA['special'     => $special,]]></search>
+			<add><![CDATA[
+			  // Cosyone custom code starts	
+			  'thumb2'  => $this->model_tool_image->resize($images, $this->config->get('config_image_product_width'), $this->config->get('config_image_product_height')),
+			  // Cosyone custom code ends
+			   ]]></add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[
+			$data['categories'][] = array(
+			]]></search>
+			<add>
+			$image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_product_width'), $this->config->get('config_image_product_width'));
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after"><![CDATA[
+			$data['categories'][] = array(
+			]]></search>
+			<add>
+			'thumb' => $image,
+			</add>
+		</operation>
+	</file>
+	<file name="admin/controller/setting/setting.php">
+		<operation>
+			<search position="after"><![CDATA[$this->session->data['success'] = $this->language->get('text_success');]]></search>
+			<add><![CDATA[		
+			/* loo functions begin */
+            function loo_parse_queries($file) {
+                $sql_file = $file;
+                $contents = file_get_contents($sql_file);
+                $contents = preg_replace('/(?<=t);(?=\n)/', "{{semicolon_in_text}}", $contents);
+                $statements = explode(";\n", $contents);
+				// $statements = preg_replace("/\s/", ' ', $statements);
+                $queries = array();
+                foreach ($statements as $query) {
+                    if (trim($query) != '') {
+                        $query = str_replace("{{semicolon_in_text}}", ";", $query);
+                        //apply db prefix parametr
+                        preg_match("/\?:\w*/i", $query, $matches);
+                        $table_name = str_replace('?:', DB_PREFIX, $matches[0]);
+                        if ( !empty($table_name) ) {
+                            $query = str_replace(array($matches[0], 'key = '), array($table_name, '`key` = '), $query);
+                        }
+                        $queries[] = $query;
+                    }
+                }
+                return $queries;
+            }
+            /* loo functions end */
+
+            // LOO
+            if(file_exists(DIR_CATALOG . 'view/theme/' . $this->request->post['config_template'] . '/install.sql')) {
+				$tmpl_dir = dirname(DIR_CATALOG . 'view/theme/' . $this->request->post['config_template'] . '/install.sql');
+				
+				//if((bool)stristr($tmpl_dir, $this->config->get('config_template')) == false) {
+					// Parse and Run sql
+					$sql = loo_parse_queries(DIR_CATALOG . 'view/theme/' . $this->request->post['config_template'] . '/install.sql');
+					foreach ($sql as $query) {
+						$this->db->query($query);
+					}
+				//}
+			}
+            // LOO (end)
+		]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/design/layout.php">
+		<operation error="log">
+			<search position="replace"><![CDATA[layout_form]]></search>
+			<add>layout_form_soconfig</add>
+		</operation>
+	</file>
+</modification>

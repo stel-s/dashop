@@ -1,0 +1,17 @@
+/*----------------------------------
+*  -----------Target IE 9 and HIGHER -----------------
+*---------------------------*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .slider-clients-say .owl2-stage-outer {
+    margin: 0 -1px; }
+
+  #sosearchpro.so-search .select_category select {
+    width: 120px; }
+
+  .icon-select:after {
+    display: none; }
+
+  .manufacuturers .owl2-carousel .owl2-stage {
+    width: 2000px !important; } }
+
+/*# sourceMappingURL=ie9-and-up.css.map */

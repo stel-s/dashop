@@ -1,0 +1,31 @@
+---------- Date: 2016-04-16 18:42:42 ~ IP : 10.240.0.215 ----------
+REQUEST URI : /dashop/
+MOD DETAILS:
+   modFile   : /home/ubuntu/workspace/dashop/vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+VQModObject::parseMods - Could not resolve path for [catalog/language/hungarian/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/language/hungarian/setting/setting.php] (SKIPPED)
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-04-16 19:40:11 ~ IP : 10.240.0.181 ----------
+REQUEST URI : /dashop/index.php?route=product/category&path=33
+MOD DETAILS:
+   modFile   : /home/ubuntu/workspace/dashop/vqmod/xml/soconfig_theme.xml
+   id        : Soconfig theme
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Magentech - Magentech.com
+
+File Name    : catalog/controller/product/category.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->load->language('product/manufacturer');
+----------------------------------------------------------------------
+
+

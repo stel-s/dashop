@@ -1,0 +1,24 @@
+[28-Jul-2016 08:47:51 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ubuntu/workspace/dashop/system/library/db/mysqli.php on line 7
+[28-Jul-2016 08:47:51 UTC] PHP Stack trace:
+[28-Jul-2016 08:47:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dashop/admin/index.php:0
+[28-Jul-2016 08:47:51 UTC] PHP   2. DB->__construct($driver = *uninitialized*, $hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/admin/index.php:31
+[28-Jul-2016 08:47:51 UTC] PHP   3. DB\MySQLi->__construct($hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db.php:9
+[28-Jul-2016 08:47:51 UTC] PHP   4. mysqli->mysqli(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db/mysqli.php:7
+[28-Jul-2016 08:47:51 UTC] PHP Notice:  Error: Could not make a database link (2002) Connection refused in /home/ubuntu/workspace/dashop/system/library/db/mysqli.php on line 10
+[28-Jul-2016 08:47:51 UTC] PHP Stack trace:
+[28-Jul-2016 08:47:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dashop/admin/index.php:0
+[28-Jul-2016 08:47:51 UTC] PHP   2. DB->__construct($driver = *uninitialized*, $hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/admin/index.php:31
+[28-Jul-2016 08:47:51 UTC] PHP   3. DB\MySQLi->__construct($hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db.php:9
+[28-Jul-2016 08:47:51 UTC] PHP   4. trigger_error(*uninitialized*) /home/ubuntu/workspace/dashop/system/library/db/mysqli.php:10
+[28-Jul-2016 08:48:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ubuntu/workspace/dashop/system/library/db/mysqli.php on line 7
+[28-Jul-2016 08:48:49 UTC] PHP Stack trace:
+[28-Jul-2016 08:48:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/dashop/admin/index.php:0
+[28-Jul-2016 08:48:49 UTC] PHP   2. DB->__construct($driver = *uninitialized*, $hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/admin/index.php:31
+[28-Jul-2016 08:48:49 UTC] PHP   3. DB\MySQLi->__construct($hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db.php:9
+[28-Jul-2016 08:48:49 UTC] PHP   4. mysqli->mysqli(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db/mysqli.php:7
+[28-Jul-2016 08:48:49 UTC] PHP Notice:  Error: Could not make a database link (2002) Connection refused in /home/ubuntu/workspace/dashop/system/library/db/mysqli.php on line 10
+[28-Jul-2016 08:48:49 UTC] PHP Stack trace:
+[28-Jul-2016 08:48:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/dashop/admin/index.php:0
+[28-Jul-2016 08:48:49 UTC] PHP   2. DB->__construct($driver = *uninitialized*, $hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/admin/index.php:31
+[28-Jul-2016 08:48:49 UTC] PHP   3. DB\MySQLi->__construct($hostname = *uninitialized*, $username = *uninitialized*, $password = *uninitialized*, $database = *uninitialized*, $port = *uninitialized*) /home/ubuntu/workspace/dashop/system/library/db.php:9
+[28-Jul-2016 08:48:49 UTC] PHP   4. trigger_error(*uninitialized*) /home/ubuntu/workspace/dashop/system/library/db/mysqli.php:10

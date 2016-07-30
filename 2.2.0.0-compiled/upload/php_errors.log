@@ -1,0 +1,204 @@
+[11-Apr-2016 19:08:34 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[11-Apr-2016 19:08:34 UTC] PHP Stack trace:
+[11-Apr-2016 19:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[11-Apr-2016 19:08:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[11-Apr-2016 19:08:34 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[11-Apr-2016 19:08:34 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[11-Apr-2016 19:08:34 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[11-Apr-2016 19:08:34 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:08:34 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:08:34 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[11-Apr-2016 19:08:34 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:08:34 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:05 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[11-Apr-2016 19:11:05 UTC] PHP Stack trace:
+[11-Apr-2016 19:11:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[11-Apr-2016 19:11:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[11-Apr-2016 19:11:05 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[11-Apr-2016 19:11:05 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[11-Apr-2016 19:11:05 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[11-Apr-2016 19:11:05 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:05 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:05 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[11-Apr-2016 19:11:05 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:05 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:10 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[11-Apr-2016 19:11:10 UTC] PHP Stack trace:
+[11-Apr-2016 19:11:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[11-Apr-2016 19:11:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[11-Apr-2016 19:11:10 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[11-Apr-2016 19:11:10 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[11-Apr-2016 19:11:10 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[11-Apr-2016 19:11:10 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:10 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:10 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[11-Apr-2016 19:11:10 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:10 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:48 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[11-Apr-2016 19:11:48 UTC] PHP Stack trace:
+[11-Apr-2016 19:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[11-Apr-2016 19:11:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[11-Apr-2016 19:11:48 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[11-Apr-2016 19:11:48 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[11-Apr-2016 19:11:48 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[11-Apr-2016 19:11:48 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:48 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:48 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[11-Apr-2016 19:11:48 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:11:48 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:14:23 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1443
+[11-Apr-2016 19:14:23 UTC] PHP Stack trace:
+[11-Apr-2016 19:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[11-Apr-2016 19:14:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[11-Apr-2016 19:14:23 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[11-Apr-2016 19:14:23 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[11-Apr-2016 19:14:23 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[11-Apr-2016 19:14:23 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:14:23 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[11-Apr-2016 19:14:23 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:29:57 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 327
+[12-Apr-2016 18:29:57 UTC] PHP Stack trace:
+[12-Apr-2016 18:29:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:29:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:29:57 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:29:57 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:29:57 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:29:57 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:29:57 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:29:57 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:34:00 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1471
+[12-Apr-2016 18:34:00 UTC] PHP Stack trace:
+[12-Apr-2016 18:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:34:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:34:00 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:34:00 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:34:00 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:34:00 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:34:00 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:34:00 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:34:00 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:34:00 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:36:08 UTC] PHP Fatal error:  Call to undefined method ControllerCatalogProduct::render() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[12-Apr-2016 18:36:08 UTC] PHP Stack trace:
+[12-Apr-2016 18:36:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:36:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:36:08 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:36:08 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:36:08 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:36:08 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:36:08 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:36:08 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:36:08 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:36:08 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:12 UTC] PHP Fatal error:  Cannot redeclare ControllerCatalogProduct::importCSV() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1473
+[12-Apr-2016 18:39:12 UTC] PHP Stack trace:
+[12-Apr-2016 18:39:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:39:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:39:12 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:39:12 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:39:12 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:39:12 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:12 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:12 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:39:13 UTC] PHP Fatal error:  Cannot redeclare ControllerCatalogProduct::importCSV() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1473
+[12-Apr-2016 18:39:13 UTC] PHP Stack trace:
+[12-Apr-2016 18:39:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:39:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:39:13 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:39:13 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:39:13 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:39:13 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:13 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:13 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:39:15 UTC] PHP Fatal error:  Cannot redeclare ControllerCatalogProduct::importCSV() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1473
+[12-Apr-2016 18:39:15 UTC] PHP Stack trace:
+[12-Apr-2016 18:39:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:39:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:39:15 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:39:15 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:39:15 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:39:15 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:15 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:15 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:39:19 UTC] PHP Fatal error:  Cannot redeclare ControllerCatalogProduct::importCSV() in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1473
+[12-Apr-2016 18:39:19 UTC] PHP Stack trace:
+[12-Apr-2016 18:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:39:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:39:19 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:39:19 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:39:19 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:39:19 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:19 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:39:19 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:40:24 UTC] PHP Fatal error:  Call to a member function setTitle() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1446
+[12-Apr-2016 18:40:24 UTC] PHP Stack trace:
+[12-Apr-2016 18:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:40:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:40:24 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:40:24 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:40:24 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:40:24 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:40:24 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:40:24 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:40:24 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:40:24 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:24 UTC] PHP Fatal error:  Call to a member function model() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1449
+[12-Apr-2016 18:41:24 UTC] PHP Stack trace:
+[12-Apr-2016 18:41:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:41:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:41:24 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:41:24 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:41:24 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:41:24 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:24 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:24 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:41:24 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:24 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:51 UTC] PHP Fatal error:  Call to a member function setOutput() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[12-Apr-2016 18:41:51 UTC] PHP Stack trace:
+[12-Apr-2016 18:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:41:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:41:51 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:41:51 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:41:51 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:41:51 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:51 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:51 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:41:51 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:41:51 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:15 UTC] PHP Fatal error:  Call to a member function setOutput() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[12-Apr-2016 18:42:15 UTC] PHP Stack trace:
+[12-Apr-2016 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:42:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:42:15 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:42:15 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:42:15 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:42:15 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:15 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:15 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:42:15 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:15 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:37 UTC] PHP Fatal error:  Call to a member function setOutput() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[12-Apr-2016 18:42:37 UTC] PHP Stack trace:
+[12-Apr-2016 18:42:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:42:37 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:42:37 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:42:37 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:42:37 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:42:37 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:37 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:37 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:42:37 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:42:37 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:46:24 UTC] PHP Fatal error:  Call to a member function setOutput() on a non-object in /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/catalog/product.php on line 1470
+[12-Apr-2016 18:46:24 UTC] PHP Stack trace:
+[12-Apr-2016 18:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:0
+[12-Apr-2016 18:46:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/index.php:22
+[12-Apr-2016 18:46:24 UTC] PHP   3. Front->dispatch() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/framework.php:99
+[12-Apr-2016 18:46:24 UTC] PHP   4. Front->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:29
+[12-Apr-2016 18:46:24 UTC] PHP   5. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/front.php:34
+[12-Apr-2016 18:46:24 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:46:24 UTC] PHP   7. ControllerStartupRouter->index() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:46:24 UTC] PHP   8. Action->execute() /home/ubuntu/workspace/2.2.0.0-compiled/upload/admin/controller/startup/router.php:26
+[12-Apr-2016 18:46:24 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44}() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44
+[12-Apr-2016 18:46:24 UTC] PHP  10. ControllerCatalogProduct->importCSV() /home/ubuntu/workspace/2.2.0.0-compiled/upload/system/engine/action.php:44

@@ -1,0 +1,78 @@
+---------- Date: 2016-03-22 03:27:33 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+VQModObject::parseMods - Could not resolve path for [catalog/language/hungarian/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/language/hungarian/setting/setting.php] (SKIPPED)
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-22 04:07:39 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/index.php?route=product/category&path=76
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/soconfig_theme.xml
+   id        : Soconfig theme
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Magentech - Magentech.com
+
+File Name    : catalog/controller/product/category.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->load->language('product/manufacturer');
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-22 04:14:46 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/layout2/
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-22 07:53:19 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+VQModObject::parseMods - Could not resolve path for [catalog/language/hungarian/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/language/hungarian/setting/setting.php] (SKIPPED)
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-22 09:26:05 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/layout2/
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/cookie_low.xml
+   id        : EU Cookie Law - top, bottom, floating
+   version   : 
+   vqmver    : 2.X
+   author    : arveo
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </footer>
+
+----------------------------------------------------------------------
+
+

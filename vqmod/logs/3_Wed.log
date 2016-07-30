@@ -1,0 +1,14 @@
+---------- Date: 2016-03-23 10:27:10 ~ IP : ::1 ----------
+REQUEST URI : /ytc_templates/opencart/so_maxshop/layout2/index.php?route=product/category&path=33_63
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\ytc_templates\opencart\so_maxshop\vqmod/xml/soconfig_theme.xml
+   id        : Soconfig theme
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Magentech - Magentech.com
+
+File Name    : catalog/controller/product/category.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->load->language('product/manufacturer');
+----------------------------------------------------------------------
+
+
